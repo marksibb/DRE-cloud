@@ -37,7 +37,7 @@ return(
   ?<div>
   <FontAwesomeIcon icon="tools" id="after-tools"/>
   <div id = "box-tools">
-  <p>Powerful<br></br>Data Tooling</p>
+  <p>WIDE RANGE OF<br></br> DATA <b>ANALYSIS</b> TOOLS</p>
   </div>
    </div>
    :<div>

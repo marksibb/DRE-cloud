@@ -37,7 +37,7 @@ return(
   ?<div>
   <FontAwesomeIcon icon="globe" id="after-globe"/>
   <div id="box-globe">
-  <p>Powerful<br></br>Data Tooling</p>
+  <p>GLOBAL COLLABORATION<br></br></p>
   </div>
    </div>
    :<div>

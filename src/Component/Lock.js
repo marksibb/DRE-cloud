@@ -36,10 +36,12 @@ return(
 { this.state.isHover
   ?<div>
   <FontAwesomeIcon icon="lock" id="after-lock"/>
+  <div className = "visible">
   <div id = "box-lock">
-  <p>Powerful<br></br>Data Tooling</p>
+  <p>PROTECTING<br></br>PRIVACY - <b>GPDR</b></p>
   </div>
-   </div>
+  </div>
+  </div>
    :<div>
     <FontAwesomeIcon icon="lock" id="icon-lock"/>
     </div>}

@@ -36,7 +36,7 @@ return(
     ?<div>
     <FontAwesomeIcon icon="filter" id="after-filter"/>
     <div id="box-funnel">
-    <p>Data Wrangling<br></br>using FAIR Principles</p>
+    <p>DATA WRANGLING<br></br>USING <b>FAIR PRINCIPLES</b></p>
     </div>
      </div>
      :<div>
@@ -44,8 +44,7 @@ return(
       </div>}
   </div>
 
-  <FontAwesomeIcon icon="lock" id="icon-lock"/>
-  <FontAwesomeIcon icon="folder" id="icon-folder"/>
+
 
 
 
