@@ -9,8 +9,9 @@ return(
 
     <div id="big_boy"></div>
     <div id="big_boy2"></div>
-    <img src={require("../img/vector-cloud.png")}></img>
-<img id="dre" src={require("../img/AridhiaDRE.png")}></img>
+    <img id="cloud-before" src={require("../img/vector-cloud.png")}></img>
+      
+    <img id="dre" src={require("../img/AridhiaDRE.png")}></img>
     </div>
 
 

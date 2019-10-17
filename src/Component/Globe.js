@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import {faGlobe} from '@fortawesome/free-solid-svg-icons';
+import {faSquareRootAlt} from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import '../App.css';
-library.add( faGlobe);
+library.add( faSquareRootAlt);
 class Globe extends Component{
   constructor(props) {
       super(props);
@@ -35,13 +35,13 @@ return(
 <div className="globe" onMouseEnter={this.onMouseOver} onMouseLeave={this.onMouseLeaveHandler}>
 { this.state.isHover
   ?<div>
-  <FontAwesomeIcon icon="globe" id="after-globe"/>
+  <FontAwesomeIcon icon="square-root-alt" id="after-globe"/>
   <div id="box-globe">
-  <p>GLOBAL COLLABORATION<br></br></p>
+  <p><b>ON-DEMAND</b><br></br>COMPUTE</p>
   </div>
    </div>
    :<div>
-    <FontAwesomeIcon icon="globe" id="icon-globe"/>
+    <FontAwesomeIcon icon="square-root-alt" id="icon-globe"/>
     </div>}
 </div>
 

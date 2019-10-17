@@ -35,9 +35,11 @@ return(
 <div className="lock" onMouseEnter={this.onMouseOver} onMouseLeave={this.onMouseLeaveHandler}>
 { this.state.isHover
   ?<div>
+  
   <FontAwesomeIcon icon="lock" id="after-lock"/>
   <div className = "visible">
   <div id = "box-lock">
+
   <p>PROTECTING<br></br>PRIVACY - <b>GPDR</b></p>
   </div>
   </div>

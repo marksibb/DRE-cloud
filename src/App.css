@@ -96,13 +96,31 @@ body{
     position: absolute;
 } */
 
-img{
+#cloud-before{
   left: -145px;
   top: -40px;
   width: 600px;
+  /* height: 350px; */
   z-index: 1;
     position: absolute;
 }
+
+#cloud-after{
+  left: -200px;
+  top: -60px;
+  width: 700px;
+  z-index: 1;
+    position: absolute;
+}
+
+#dre{
+  width: 120px;
+  left: 110px;
+  top: 60px;
+  z-index: 1;
+  position: absolute;
+}
+
 
 .fas.fa-filter{
   color: #2C88A2;
@@ -341,14 +359,9 @@ b{
   font-weight: bold !important;
 }
 
-#dre{
-  width: 120px;
-  left: 110px;
-  top: 60px;
-}
 
 .visible {
-  
+
   opacity: 1;
   transition: opacity 0.5s linear;
 }
